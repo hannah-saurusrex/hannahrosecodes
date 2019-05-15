@@ -38,19 +38,6 @@ body {
 
 
 /********** HEADER **********/
-/* header {
-  background: url(../img/hero.png);
-  background-size: cover;
-  height: 800px;
-  padding-top: 10px;
-} */
-
-/* header h1 {
-  color: #BBC085;
-  font-family: 'Lora', serif;
-  font-size: 30px;
-  padding: 40px 0;
-} */
 
 nav {
   display: flex;
@@ -65,6 +52,7 @@ nav {
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 16px;
+  font-weight: 300;
 }
 
 .nav-links {
@@ -97,6 +85,31 @@ nav {
   background-color: #9B9B9B;
   margin: 5px;
   transition: all 0.3s ease;
+}
+
+.hero-wrapper {
+  position: relative;
+  text-align: center;
+}
+
+.hero-img {
+  width: 100%;
+  object-fit: cover;
+  height: 400px;
+}
+
+.homepage-header-text {
+  text-align: center;
+  font-size: 56px;
+  line-height: 68px;
+  text-transform: uppercase;
+  color: #BBC085;
+  font-weight: 300;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
 }
 
 header h2 {
