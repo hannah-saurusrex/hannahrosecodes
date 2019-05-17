@@ -326,6 +326,29 @@ header h2 span {
 /*------------Mobile Styles------------*/
 @media screen and (min-width: 300px) and (max-width: 500px) {
  
+  .nav-links {
+    position: absolute;
+    right: 0px;
+    height: 65vh;
+    top: 12vh;
+    background-color: #f9ceb7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+    z-index: 1;
+  }
+
+  .nav-links li {
+    opacity: 0;
+  }
+  
+  .burger {
+    display: block;
+  }
+  
   .homepage-header-text {
     text-align: center;
     font-size: 42px;
@@ -348,7 +371,7 @@ header h2 span {
     background-position: center;
   }
 
-  .column .column-work {
+  .column .column-work .column-contact {
     width: 100%;
   }
 }
