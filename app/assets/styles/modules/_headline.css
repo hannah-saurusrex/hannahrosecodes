@@ -1,5 +1,21 @@
 .headline {
+    font-size: 1.9rem;
     font-weight: 300;
-    font-size: 2.875rem;
     color: $mainGreen;
+
+    @mixin atSmall {
+        font-size: 2.875rem;
+    }
+
+    &--black {
+        color: $mainBlack;
+    }
+
+    &--small {
+        font-size: 1.875rem;
+    }
+
+    &--b-margin-small {
+        margin-bottom: .6em;
+    }
 }
