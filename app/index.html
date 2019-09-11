@@ -37,42 +37,47 @@
             <source srcset="assets/img/hero--large.jpg" media="(min-width: 1380px)">
             <source srcset="assets/img/hero--medium.jpg" media="(min-width: 990px)">
             <source srcset="assets/img/hero--small.jpg" media="(min-width: 640px)">
-            <img src="assets/img/hero--smaller.jpg" alt="clean and modern desk setting">
+            <img src="assets/img/hero--smaller.jpg" alt="clean and modern desk setting" class="large-hero__image">
           </picture>
 
           <div class="large-hero__text-content">
-            <h1 class="large-hero__title"><span>Hi,</span> I'm a developer who loves clean &amp; elegant code.</h1>
-            <h2 class="large-hero__subtitle">this is subheader text that I should write</h2>
+            <div class="wrapper">
+              <h1 class="large-hero__title"><span>Hi,</span> I'm a developer who loves clean &amp; elegant code.</h1>
+              <h2 class="large-hero__subtitle">this is subheader text that I should write</h2>
+            </div>
           </div>
         </div>
-        <section id="about">
-          <div>
-            <h2> A little bit about me. </h2>
+
+        <div id="about" class="page-section">
+          <div class="wrapper">
+            <h2 class="headline">A little bit about me...</h2>
           <div class="row">
             <p class="column">I began my journey into web development in 2017 by dabbling in some online courses. I fell in love and jumped in feet first to a front-end developer blueprint through Skillcrush. I am currently working as a front-end developer for a small startup that focuses on email marketing. I have experience working in HTML, CSS and Javascript. Github is my preferred version control system, but I am comfortable with Bitbucket. </p>
             <p class="column">Some of my recent projects include connecting a map api to a weather data api to show you the current weather for any location you’ve clicked on, building out my own wedding website, complete with the ability to filter suggested locations to visit by various parameters as well as an RSVP section. Check out my projects and learn a bit more about each one by visiting my portfolio page.</p>
           </div>
+          </div>
         </div>
-        </section>
-        <section id="work">
-          <div class="row">
+
+        <div id="work" class="page-section page-section--pink">
+          <div class="wrapper">
             <div class="column-work">
               <img src="assets/img/icon-html.png" alt="HTML icon" />
-              <h3> Hand-Coded HTML </h3>
-              <p> My focus is writing clean, well-formatted, semantic HTML5 by hand to make sure that the content is easy to read, easy to collaborate, trouble-shoot and accessible.</p>
+              <h3 class="headline">Hand-Coded HTML </h3>
+              <p>My focus is writing clean, well-formatted, semantic HTML5 by hand to make sure that the content is easy to read, easy to collaborate, trouble-shoot and accessible.</p>
             </div>
             <div class="column-work">
               <img src="assets/img/icon-css.png" alt="CSS icon" />
-              <h3> Well-Organized CSS </h3>
-              <p> I pride myself on writing CSS that is easy to read and build on. I focus on keeping my CSS lean and fast to load, and I make it a habit to stay up to date on current best practices.</p>
+              <h3 class="headline">Well-Organized CSS </h3>
+              <p>I pride myself on writing CSS that is easy to read and build on. I focus on keeping my CSS lean and fast to load, and I make it a habit to stay up to date on current best practices.</p>
             </div>
             <div class="column-work">
               <img src="assets/img/icon-pencil.png" alt="Pencil icon" />
-              <h3> Ease Converting Designs into Code </h3>
-              <p> You can trust me to take a designer’s PSD and quickly &amp; accurately convert it into a webpage that is a perfect match.</p>
+              <h3 class="headline">Ease Converting Designs into Code </h3>
+              <p>You can trust me to take a designer’s PSD and quickly &amp; accurately convert it into a webpage that is a perfect match.</p>
             </div>
           </div>
-        </section>
+        </div>
+
         <footer id="contact">
           <div class="row">
             <div class="column-contact">
