@@ -465,6 +465,12 @@ img {
             box-sizing: border-box;
   }
 
+a {
+    text-decoration: none;
+    color: #2B2B2B;
+    vertical-align: middle;
+  }
+
 .large-hero {
     position: relative;
     border-bottom: 8px solid #f9ceb7;
@@ -522,7 +528,7 @@ img {
 .wrapper {
     padding-left: 18px;
     padding-right: 18px;
-    max-width: 1200px;
+    max-width: 1236px;
     margin-left: auto;
     margin-right: auto;
     overflow: hidden;
@@ -531,6 +537,17 @@ img {
 .wrapper .wrapper {
         padding-left: 0;
         padding-right: 0;
+    }
+
+.wrapper--b-margin {
+        margin-bottom: 1rem;
+    }
+
+@media (min-width: 530px) {
+
+.wrapper--b-margin {
+            margin-bottom: 3.875rem
+    }
     }
 
 .page-section {
@@ -574,6 +591,10 @@ img {
         margin-bottom: .6em;
     }
 
+.headline--no-t-margin {
+        margin-top: 0;
+    }
+
 .row {
     background-color: #EBEBEB;
     
@@ -593,17 +614,66 @@ img {
         padding-right: 65px;
     }
 
+.row__b-margin-until-medium {
+        margin-bottom: 1rem;
+    }
+
 @media (min-width: 800px) {
+
+        .row__b-margin-until-medium {
+            margin-bottom: 0;
+        }
+        
         .row__medium-4 {
             float: left;
             width: 33.33%;
+        }
+
+        .row__medium-4--larger {
+            width: 37%;
         }
     
         .row__medium-8 {
             float: left;
             width: 66.66%;
         }
+
+        .row__medium-8--smaller {
+            width: 63%;
+        }
     }
+
+.generic-content-container {
+    margin-bottom: 3.875rem;
+}
+
+.generic-content-container h2 {
+        line-height: 1.65;
+        margin-bottom: 0;
+    }
+
+.generic-content-container h3 {
+        line-height: 1.5;
+        font-size: 1.5rem;
+        margin-bottom: 1.125rem;
+        margin-top: 1.125rem;
+    }
+
+.generic-content-container ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+
+.generic-content-container li {
+        display: inline-block;
+        padding-right: 15px;
+      }
+
+.generic-content-container #envelope {
+          padding-right: 5px;
+          vertical-align: middle;
+      }
 
 
 
