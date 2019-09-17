@@ -597,7 +597,6 @@ a {
 
 .row {
     background-color: #EBEBEB;
-    
 }
 
 .row::after {
@@ -654,6 +653,24 @@ a {
             width: 63%;
         }
     }
+
+/* begin equal height rules */
+
+@media (min-width: 800px) {
+
+.row--equal-height-at-medium {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex
+    }
+    }
+
+.row--equal-height-at-medium > div {
+            float: none;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+        }
 
 .generic-content-container {
     margin-bottom: 3.875rem;
