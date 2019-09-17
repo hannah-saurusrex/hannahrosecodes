@@ -610,8 +610,20 @@ a {
         margin-right: -65px;
     }
 
+.row--gutters-small {
+        margin-right: -40px;
+    }
+
+.row--gutters-pink {
+        background-color: #f9ceb7;
+    }
+
 .row--gutters > div {
         padding-right: 65px;
+    }
+
+.row--gutters-small > div {
+        padding-right: 40px;
     }
 
 .row__b-margin-until-medium {
@@ -623,7 +635,7 @@ a {
         .row__b-margin-until-medium {
             margin-bottom: 0;
         }
-        
+
         .row__medium-4 {
             float: left;
             width: 33.33%;
@@ -674,6 +686,27 @@ a {
           padding-right: 5px;
           vertical-align: middle;
       }
+
+.work {
+    background-color: #f9ceb7;
+    padding: 0 1.8125rem 1px 1.8125rem;
+}
+
+.work__photo {
+        width: 81px;
+        height: 95px;
+        margin: 0 auto 0 auto;
+    }
+
+.work__title {
+        text-align: center;
+        font-size: 1.4rem;
+        margin: .75em;
+    }
+
+.work__text {
+        line-height: 1.75;
+    }
 
 
 
