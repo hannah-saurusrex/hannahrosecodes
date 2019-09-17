@@ -1,6 +1,12 @@
 .work {
     background-color: $mainPink;
-    padding: 0 1.8125rem 1px 1.8125rem;
+    padding: 0 18px 1px 18px;
+    margin-bottom: 10px;
+    
+    @mixin atLarge {
+        padding: 0 1.8125rem 1px 1.8125rem;
+        margin-bottom: 0;
+    }
 
     &__photo {
         width: 81px;

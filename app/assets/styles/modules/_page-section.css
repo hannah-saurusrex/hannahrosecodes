@@ -4,6 +4,14 @@
     @mixin atMedium {
         padding: 4.5rem 0;
     }
+
+    &--no-b-padding-until-large {
+        padding-bottom: 0;
+
+        @mixin atLarge {
+            padding-bottom: 3.5rem;
+        }
+    }
     
     &--pink {
         background-color: $mainPink;
