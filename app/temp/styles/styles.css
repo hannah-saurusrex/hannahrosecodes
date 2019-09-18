@@ -491,11 +491,11 @@ a {
     }
 
 .large-hero__title {
-        font-weight: 300;
+        font-weight: 700;
         color: #9B9B9B;
         font-size: 2.4rem;
         margin: 0;
-        max-width: 46.875rem;
+        max-width: 80rem;
         margin-left: auto;
         margin-right: auto;
     }
@@ -809,7 +809,7 @@ a {
     }
 
 .work__text {
-        line-height: 1.75;
+        line-height: 2;
     }
 
 
