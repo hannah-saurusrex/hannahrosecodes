@@ -11,5 +11,6 @@
 @import "modules/_work";
 @import "modules/_sprite";
 @import "modules/_site-contact";
-
+@import "modules/_site-header";
+@import "modules/_primary-nav";
 
