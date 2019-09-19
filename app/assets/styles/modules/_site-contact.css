@@ -1,0 +1,15 @@
+.site-contact {
+    background-color: #EBEBEB;
+    padding: .5rem 0;
+
+    &__text {
+        display: block;
+        margin-top: 1rem;
+
+        @mixin atMedium {
+            display: inline;
+            margin-top: 0;
+            margin-left: 1.5rem;
+        }
+    }
+}
