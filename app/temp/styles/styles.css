@@ -465,11 +465,11 @@ img {
             box-sizing: border-box;
   }
 
-a {
+/* a {
     text-decoration: none;
-    color: #2B2B2B;
+    color: $mainBlack;
     vertical-align: middle;
-  }
+  } */
 
 .large-hero {
     position: relative;
@@ -881,11 +881,19 @@ Instead, edit gulp/templates/sprite.css */
     }
 
 .site-header {
+    padding: 10px 0;
     position: absolute;
     width: 100%;
     z-index: 2;
-    background-color: rgba(#BBC085, 0.3);
+    background-color: rgba(187,192,133, 0.3);
 }
+
+.site-header__logo {
+        position: absolute;
+        top: 0;
+        padding: 15px 25px;
+        background-color: rgba(249,206,183, 0.6);
+    }
 
 .primary-nav--pull-right {
         float: right;
@@ -905,5 +913,14 @@ Instead, edit gulp/templates/sprite.css */
 .primary-nav li {
         list-style: none;
         float: left;
+        padding-right: 20px;
+    }
+
+.primary-nav a {
+        color: #2B2B2B;
+        text-decoration: none;
+        display: block;
+        font-weight: 500;
+        padding: 20px 0;
     }
 

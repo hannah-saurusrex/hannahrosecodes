@@ -1,6 +1,14 @@
 .site-header {
+    padding: 10px 0;
     position: absolute;
     width: 100%;
     z-index: 2;
-    background-color: rgba($mainGreen, 0.3);
+    background-color: rgba(#BBC085, 0.3);
+
+    &__logo {
+        position: absolute;
+        top: 0;
+        padding: 15px 25px;
+        background-color: rgba(#f9ceb7, 0.6);
+    }
 }
