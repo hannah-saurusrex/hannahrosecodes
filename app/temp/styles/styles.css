@@ -481,6 +481,7 @@ img {
     }
 
 .large-hero__text-content {
+        padding-top: 88px;
         position: absolute;
         top: 50%;
         -webkit-transform: translateY(-50%);
@@ -488,6 +489,13 @@ img {
         left: 0;
         width: 100%;
         text-align: center;
+    }
+
+@media (min-width: 800px) {
+
+.large-hero__text-content {
+            padding-top: 60px
+    }
     }
 
 .large-hero__title {
@@ -881,18 +889,65 @@ Instead, edit gulp/templates/sprite.css */
     }
 
 .site-header {
-    padding: 10px 0;
     position: absolute;
     width: 100%;
     z-index: 2;
-    background-color: rgba(187,192,133, 0.3);
 }
+
+@media (min-width: 800px) {
+
+.site-header {
+        background-color: rgba(#BBC085, 0.3)
+}
+    }
 
 .site-header__logo {
         position: absolute;
         top: 0;
+        left: 50%;
+        -webkit-transform: translateX(-50%) scale(.8);
+                transform: translateX(-50%) scale(.8);
+        -webkit-transform-origin: 50% 0;
+                transform-origin: 50% 0;
+        text-align: center;
         padding: 15px 25px;
-        background-color: rgba(249,206,183, 0.6);
+        background-color: rgba(#f9ceb7, 0.8);
+    }
+
+@media (min-width: 800px) {
+
+.site-header__logo {
+            left: auto;
+            -webkit-transform: translateX(0);
+                    transform: translateX(0)
+    }
+    }
+
+.site-header__menu-icon {
+        width: 20px;
+        height: 20px;
+        background-color: #FFF;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+
+@media (min-width: 800px) {
+
+.site-header__menu-icon {
+            display: none
+    }
+    }
+
+.site-header__menu-content {
+        display: none;
+    }
+
+@media (min-width: 800px) {
+
+.site-header__menu-content {
+            display: block
+    }
     }
 
 .primary-nav--pull-right {
