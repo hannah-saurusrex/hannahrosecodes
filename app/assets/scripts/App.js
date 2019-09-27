@@ -1,9 +1,10 @@
+var $ = require('jquery');
+import Person from './modules/Person';
+
 alert("ABC 321");
 
+var john = new Person ("John Doe", "blue");
+john.greet();
 
-function person(name, favColor) {
-    console.log("hello my name is " + name + " and my favorite color is " + favColor + ".");
-}
-
-person("John Doe", "blue");
-person("Jane Smigh", "green");
+var jane = new Person ("Jane Smigh", "orange");
+jane.greet();

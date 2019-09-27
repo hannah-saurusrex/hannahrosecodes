@@ -465,11 +465,11 @@ img {
             box-sizing: border-box;
   }
 
-/* a {
+a {
     text-decoration: none;
-    color: $mainBlack;
+    color: #2B2B2B;
     vertical-align: middle;
-  } */
+  }
 
 .large-hero {
     position: relative;
