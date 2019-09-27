@@ -7,7 +7,8 @@
     "lazysizes": "4.0.1",
     "normalize.css": "7.0.0",
     "picturefill": "3.0.2",
-    "waypoints": "4.0.1"
+    "waypoints": "4.0.1",
+    "webpack-cli": "^3.3.9"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.6",
@@ -34,6 +35,6 @@
     "postcss-nested": "^2.1.2",
     "postcss-sassy-mixins": "^2.1.0",
     "postcss-simple-vars": "^4.1.0",
-    "webpack": "3.8.1"
+    "webpack": "^3.12.0"
   }
 }
