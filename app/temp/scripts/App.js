@@ -67,6 +67,9 @@
 /* 0 */
 /***/ (function(module, exports) {
 
+alert("ABC 321");
+
+
 function person(name, favColor) {
     console.log("hello my name is " + name + " and my favorite color is " + favColor + ".");
 }
