@@ -591,7 +591,7 @@ a {
 @media (min-width: 800px) {
 
 .page-section {
-        padding: 4.5rem 0
+        padding: 2rem 0
 }
     }
 
@@ -768,8 +768,15 @@ a {
         }
 
 .generic-content-container {
-    margin-bottom: 3.875rem;
+    margin-bottom: 1.8rem;
 }
+
+@media (min-width: 530px) {
+
+.generic-content-container {
+        margin-bottom: 2rem
+}
+    }
 
 .generic-content-container p {
         font-weight: 300;
@@ -845,19 +852,44 @@ a {
 
 .feature-item {
     position: relative;
-    padding-left: 45px;
     padding-bottom: 2rem;
 }
 
+@media (min-width: 530px) {
+
+.feature-item {
+        padding-left: 45px
+}
+    }
+
 .feature-item__icon {
-        position: absolute;
-        left: 0;
+        display: block;
+        margin: 0 auto;
+    }
+
+@media (min-width: 530px) {
+
+.feature-item__icon {
+            position: absolute;
+            left: 0
+    }
     }
 
 .feature-item__title {
-        font-size: 1.875rem;
+        font-size: 1.6rem;
         font-weight: 300;
+        margin-top: .7em;
         margin-bottom: .8rem;
+        text-align: center;
+    }
+
+@media (min-width: 530px) {
+
+.feature-item__title {
+            margin-top: 1em;
+            font-size: 1.875rem;
+            text-align: left
+    }
     }
 
 .work {
@@ -967,13 +999,13 @@ Instead, edit gulp/templates/sprite.css */
 }
 
 .site-header--is-expanded {
-        background-color: rgba(187,192,133, 0.3);
+        background-color: rgba(#BBC085, 0.3);
     }
 
 @media (min-width: 800px) {
 
 .site-header {
-        background-color: rgba(187,192,133, 0.3)
+        background-color: rgba(#BBC085, 0.3)
 }
     }
 
@@ -988,7 +1020,7 @@ Instead, edit gulp/templates/sprite.css */
                 transform-origin: 50% 0;
         text-align: center;
         padding: 15px 25px;
-        background-color: rgba(249,206,183, 0.8);
+        background-color: rgba(#f9ceb7, 0.8);
     }
 
 @media (min-width: 800px) {
