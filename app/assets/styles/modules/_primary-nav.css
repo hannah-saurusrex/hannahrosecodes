@@ -1,7 +1,15 @@
 .primary-nav {
+    padding-top: 10px;
+
+    @mixin atMedium {
+        padding-top: 0;
+    }
 
     &--pull-right {
-        float: right;
+        
+        @mixin atMedium {
+            float: right;
+        }
     }
 
     ul {
@@ -12,8 +20,13 @@
 
     li {
         list-style: none;
-        float: left;
-        padding-right: 20px;
+        padding-right: 2px;
+
+        @mixin atMedium {
+            float: left;
+            display: inline-block;
+            padding-right: 20px;
+        }
     }
 
     a {
@@ -21,6 +34,13 @@
         text-decoration: none;
         display: block;
         font-weight: 500;
-        padding: 20px 0;
+        padding: 10px 0;
+        font-size: .9rem;
+
+        @mixin atMedium {
+            padding: 20px 0;
+            font-size: 1rem;
+            background-color: transparent;
+        }
     }
 }
