@@ -1,15 +1,22 @@
 .site-contact {
     background-color: #EBEBEB;
-    padding: .5rem 0;
+    padding: 2.5rem 0 .5rem 0;
+
+    a {
+        text-decoration: none;
+        color: $mainBlack;
+    }
 
     &__text {
         display: block;
         margin-top: 1rem;
+        text-align: center;
 
         @mixin atMedium {
             display: inline;
             margin-top: 0;
             margin-left: 1.5rem;
+            text-align: left;
         }
     }
 }

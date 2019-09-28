@@ -11,7 +11,7 @@
     &__photo {
         width: 81px;
         height: 95px;
-        margin: 0 auto 0 auto;
+        margin: 1.75rem auto 0 auto;
     }
 
     &__title {

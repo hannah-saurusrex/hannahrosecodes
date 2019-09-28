@@ -467,7 +467,6 @@ img {
 
 a {
     text-decoration: none;
-    color: #2B2B2B;
     vertical-align: middle;
   }
 
@@ -540,6 +539,14 @@ a {
     margin-left: auto;
     margin-right: auto;
     overflow: hidden;
+
+    /* &--b-margin {
+        margin-bottom: 1rem;
+
+        @mixin atSmall {
+            margin-bottom: 3.875rem;
+        }
+    } */
 }
 
 .wrapper--no-padding-until-medium {
@@ -573,17 +580,6 @@ a {
         padding-right: 0;
     }
 
-.wrapper--b-margin {
-        margin-bottom: 1rem;
-    }
-
-@media (min-width: 530px) {
-
-.wrapper--b-margin {
-            margin-bottom: 3.875rem
-    }
-    }
-
 .page-section {
     padding: 1.2rem 0;
 }
@@ -602,7 +598,7 @@ a {
 @media (min-width: 1010px) {
 
 .page-section--no-b-padding-until-large {
-            padding-bottom: 3.5rem
+            padding-bottom: 2.5rem
     }
     }
 
@@ -646,7 +642,7 @@ a {
         display: table;
     }
 
-.row--gutters {
+.row--gutters-work {
         margin-right: -65px;
     }
 
@@ -662,7 +658,7 @@ a {
         background-color: #f9ceb7;
     }
 
-.row--gutters > div {
+.row--gutters-work > div {
         padding-right: 65px;
     }
 
@@ -822,19 +818,21 @@ a {
 .section-title {
     font-size: 2.55rem;
     text-align: center;
-    margin-top: 4rem;
+    margin-top: 6rem;
 }
 
 @media (min-width: 530px) {
 
 .section-title {
-        font-size: 3.75rem
+        font-size: 3.75rem;
+        margin-top: 8rem
 }
     }
 
 .section-title__icon {
         max-height: 5.5rem;
         display: block;
+        padding-top: 1.5rem;
         margin-left: auto;
         margin-right: auto;
         margin-bottom: .6rem;
@@ -843,6 +841,7 @@ a {
 @media (min-width: 530px) {
 
 .section-title__icon {
+            padding-top: 0;
             margin-right: .5rem;
             margin-left: 0;
             margin-bottom: 0;
@@ -909,7 +908,7 @@ a {
 .work__photo {
         width: 81px;
         height: 95px;
-        margin: 0 auto 0 auto;
+        margin: 1.75rem auto 0 auto;
     }
 
 .work__title {
@@ -973,12 +972,18 @@ Instead, edit gulp/templates/sprite.css */
 
 .site-contact {
     background-color: #EBEBEB;
-    padding: .5rem 0;
+    padding: 2.5rem 0 .5rem 0;
 }
+
+.site-contact a {
+        text-decoration: none;
+        color: #2B2B2B;
+    }
 
 .site-contact__text {
         display: block;
         margin-top: 1rem;
+        text-align: center;
     }
 
 @media (min-width: 800px) {
@@ -986,7 +991,8 @@ Instead, edit gulp/templates/sprite.css */
 .site-contact__text {
             display: inline;
             margin-top: 0;
-            margin-left: 1.5rem
+            margin-left: 1.5rem;
+            text-align: left
     }
     }
 
@@ -998,14 +1004,19 @@ Instead, edit gulp/templates/sprite.css */
     transition: background-color .3s ease-out;
 }
 
+.site-header a {
+        text-decoration: none;
+        color: #9B9B9B;
+    }
+
 .site-header--is-expanded {
-        background-color: rgba(#BBC085, 0.3);
+        background-color: rgba(187,192,133, 0.7);
     }
 
 @media (min-width: 800px) {
 
 .site-header {
-        background-color: rgba(#BBC085, 0.3)
+        background-color: rgba(187,192,133, 0.3)
 }
     }
 
@@ -1020,7 +1031,7 @@ Instead, edit gulp/templates/sprite.css */
                 transform-origin: 50% 0;
         text-align: center;
         padding: 15px 25px;
-        background-color: rgba(#f9ceb7, 0.8);
+        background-color: rgba(249,206,183, 0.8);
     }
 
 @media (min-width: 800px) {
@@ -1137,6 +1148,7 @@ Instead, edit gulp/templates/sprite.css */
             z-index: 1;
             -webkit-transform: scale(1);
                     transform: scale(1);
+            font-weight: bold;
         }
 
 .primary-nav {
@@ -1188,14 +1200,14 @@ Instead, edit gulp/templates/sprite.css */
         display: block;
         font-weight: 500;
         padding: 10px 0;
-        font-size: .9rem;
+        font-size: 1rem;
     }
 
 @media (min-width: 800px) {
 
 .primary-nav a {
             padding: 20px 0;
-            font-size: 1rem;
+            font-size: 1.125rem;
             background-color: transparent
     }
     }

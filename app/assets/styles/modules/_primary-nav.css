@@ -35,11 +35,11 @@
         display: block;
         font-weight: 500;
         padding: 10px 0;
-        font-size: .9rem;
+        font-size: 1rem;
 
         @mixin atMedium {
             padding: 20px 0;
-            font-size: 1rem;
+            font-size: 1.125rem;
             background-color: transparent;
         }
     }

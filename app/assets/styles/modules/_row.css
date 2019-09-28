@@ -2,7 +2,8 @@
 
     @mixin clearfix;
 
-    &--gutters {
+    
+    &--gutters-work {
         margin-right: -65px;
     }
 
@@ -18,7 +19,7 @@
         background-color: $mainPink;
     }
 
-    &--gutters > div {
+    &--gutters-work > div {
         padding-right: 65px;
     }
 
