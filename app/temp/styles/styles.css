@@ -905,6 +905,7 @@ Instead, edit gulp/templates/sprite.css */
         position: absolute;
         top: 0;
         left: 50%;
+        color: #9B9B9B;
         -webkit-transform: translateX(-50%) scale(.8);
                 transform: translateX(-50%) scale(.8);
         -webkit-transform-origin: 50% 0;
@@ -949,6 +950,10 @@ Instead, edit gulp/templates/sprite.css */
             display: block
     }
     }
+
+.site-header__menu-content--is-visible {
+            display: block;
+        }
 
 .primary-nav--pull-right {
         float: right;
