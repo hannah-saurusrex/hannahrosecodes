@@ -1,5 +1,4 @@
 .row {
-    background-color: #EBEBEB;
 
     @mixin clearfix;
 
@@ -9,6 +8,10 @@
 
     &--gutters-small {
         margin-right: -40px;
+    }
+
+    &--gutters-large {
+        margin-right: -85px;
     }
 
     &--gutters-pink {
@@ -21,6 +24,10 @@
 
     &--gutters-small > div {
         padding-right: 40px;
+    }
+
+    &--gutters-large > div {
+        padding-right: 85px;
     }
 
     &__b-margin-until-medium {
@@ -40,6 +47,11 @@
 
         &__medium-4--larger {
             width: 37%;
+        }
+
+        &__medium-6 {
+            float: left;
+            width: 50%;
         }
     
         &__medium-8 {
