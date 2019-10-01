@@ -472,7 +472,7 @@ a {
 
 .large-hero {
     position: relative;
-    border-bottom: 8px solid #f9ceb7;
+    border-bottom: 10px solid #f9ceb7;
 }
 
 .large-hero__image {
@@ -1148,7 +1148,6 @@ Instead, edit gulp/templates/sprite.css */
             z-index: 1;
             -webkit-transform: scale(1);
                     transform: scale(1);
-            font-weight: bold;
         }
 
 .primary-nav {

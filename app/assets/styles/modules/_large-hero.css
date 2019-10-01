@@ -1,6 +1,6 @@
 .large-hero {
     position: relative;
-    border-bottom: 8px solid $mainPink;
+    border-bottom: 10px solid $mainPink;
 
     &__image {
         display: block;

@@ -10691,7 +10691,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 var mobileMenu = new _MobileMenu2.default();
 new _RevealOnScroll2.default((0, _jquery2.default)(".work"), "60%"); /* write which element we're selecting (by using jquery class selector), and what offset they should use */
-new _RevealOnScroll2.default((0, _jquery2.default)(".site-contact"), "70%");
+new _RevealOnScroll2.default((0, _jquery2.default)(".contact-reveal"), "70%");
 
 /***/ }),
 /* 2 */
