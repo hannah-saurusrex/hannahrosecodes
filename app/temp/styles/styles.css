@@ -1016,8 +1016,13 @@ Instead, edit gulp/templates/sprite.css */
 @media (min-width: 800px) {
 
 .site-header {
+        position: fixed;
         background-color: rgba(187,192,133, 0.3)
 }
+
+        .site-header--dark {
+            background-color: rgba(187,192,133, 0.6);
+        }
     }
 
 .site-header__logo {
@@ -1029,6 +1034,10 @@ Instead, edit gulp/templates/sprite.css */
                 transform: translateX(-50%) scale(.8);
         -webkit-transform-origin: 50% 0;
                 transform-origin: 50% 0;
+        -webkit-transition: -webkit-transform .3s ease-out;
+        transition: -webkit-transform .3s ease-out;
+        transition: transform .3s ease-out;
+        transition: transform .3s ease-out, -webkit-transform .3s ease-out;
         text-align: center;
         padding: 15px 25px;
         background-color: rgba(249,206,183, 0.8);
@@ -1041,6 +1050,11 @@ Instead, edit gulp/templates/sprite.css */
             -webkit-transform: translateX(0);
                     transform: translateX(0)
     }
+
+            .site-header--dark .site-header__logo {
+                -webkit-transform: scale(.54);
+                        transform: scale(.54);
+            }
     }
 
 .site-header__menu-icon {
