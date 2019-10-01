@@ -1,5 +1,7 @@
 import MobileMenu from './modules/MobileMenu';
 import RevealOnScroll from './modules/RevealOnScroll';
+import $ from 'jquery';
 
 var mobileMenu = new MobileMenu();
-var revealOnScroll = new RevealOnScroll();
+new RevealOnScroll($(".work"), "60%"); /* write which element we're selecting (by using jquery class selector), and what offset they should use */
+new RevealOnScroll($(".site-contact"), "70%");

@@ -2,8 +2,9 @@ import $ from 'jquery';
 import waypoints from '../../../../node_modules/waypoints/lib/noframework.waypoints';
 
 class RevealOnScroll {
-    constructor() {
-        this.itemsToReveal = $(".work");
+    constructor(els, offset) {
+        this.itemsToReveal = els;
+        this.offsetPercentage = offset;
         this.hideInitially();
         this.createWaypoints();
     }
@@ -13,6 +14,7 @@ class RevealOnScroll {
     }
 
     createWaypoints() {
+        var that = this;
         this.itemsToReveal.each(function() {
             var currentItem = this;
             new Waypoint({
@@ -20,7 +22,7 @@ class RevealOnScroll {
                 handler: function() { /* this is the thing you want to happen when the element is scrolled to. This code runs 3 times, once for each item in the collection. */
                     $(currentItem).addClass("reveal-item--is-visible");
                 },
-                offset: "80%" 
+                offset: that.offsetPercentage
             });
         });
     }
