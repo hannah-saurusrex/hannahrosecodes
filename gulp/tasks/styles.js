@@ -17,5 +17,3 @@ var gulp = require('gulp'),
       })
       .pipe(gulp.dest("./app/temp/styles"));
   });
-
-  module.exports = gulp;

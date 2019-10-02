@@ -2,7 +2,7 @@ var gulp = require('gulp'),
 watch = require('gulp-watch'),
 browserSync = require('browser-sync').create();
 
-gulp.task('watch', function() {
+gulp.task('build', function() {
 
     browserSync.init({
         server:{
@@ -32,5 +32,3 @@ gulp.task('cssInject', ['styles'], function() {
 gulp.task('scriptsRefresh', ['scripts'], function() {
     browserSync.reload();
 });
-
-module.exports = gulp;
