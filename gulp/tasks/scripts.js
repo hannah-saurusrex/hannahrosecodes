@@ -11,3 +11,5 @@ gulp.task('scripts', function(callback) {
         callback();
     });
 });
+
+module.exports = gulp;
