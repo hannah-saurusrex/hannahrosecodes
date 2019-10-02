@@ -6,6 +6,7 @@ class StickyHeader {
         this.siteHeader = $(".site-header");
         this.headerTriggerElement = $(".large-hero__title");
         this.createHeaderWaypoint();
+        this.pageSections = $(".page-section");
     }
 
     createHeaderWaypoint() {

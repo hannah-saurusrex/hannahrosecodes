@@ -11606,6 +11606,7 @@ var StickyHeader = function () {
         this.siteHeader = (0, _jquery2.default)(".site-header");
         this.headerTriggerElement = (0, _jquery2.default)(".large-hero__title");
         this.createHeaderWaypoint();
+        this.pageSections = (0, _jquery2.default)(".page-section");
     }
 
     _createClass(StickyHeader, [{
