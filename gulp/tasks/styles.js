@@ -7,7 +7,7 @@ var gulp = require('gulp'),
   mixins = require('postcss-mixins'),
   hexrgba = require('postcss-hexrgba');
   
-  gulp.task("styles", function() {
+  gulp.task('styles', function() {
     return gulp
       .src("./app/assets/styles/styles.css")
       .pipe(postcss([cssImport, mixins, cssvars, nested, hexrgba, autoprefixer]))
@@ -17,3 +17,5 @@ var gulp = require('gulp'),
       })
       .pipe(gulp.dest("./app/temp/styles"));
   });
+
+  export default 'styles';
