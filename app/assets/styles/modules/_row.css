@@ -7,6 +7,10 @@
         margin-right: -65px;
     }
 
+    &--gutters-contact {
+        margin-right: -80px;
+    }
+
     &--gutters-small {
         margin-right: -40px;
     }
@@ -21,6 +25,10 @@
 
     &--gutters-work > div {
         padding-right: 65px;
+    }
+
+    &--gutters-contact > div {
+        padding-right: 80px;
     }
 
     &--gutters-small > div {

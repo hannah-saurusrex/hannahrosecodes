@@ -1,6 +1,6 @@
 .headline {
     font-size: 1.9rem;
-    font-weight: 300;
+    font-weight: 500;
     color: $mainGreen;
 
     @mixin atSmall {
