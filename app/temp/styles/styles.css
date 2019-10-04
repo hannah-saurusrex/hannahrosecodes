@@ -874,6 +874,7 @@ a {
 .feature-item__icon {
         display: block;
         margin: 0 auto;
+        border: 2px solid #f9ceb7;
     }
 
 @media (min-width: 530px) {
