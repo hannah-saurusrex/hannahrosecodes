@@ -11,5 +11,3 @@ gulp.task('scripts', function(callback) {
         callback();
     });
 });
-
-export default 'scripts';

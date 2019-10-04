@@ -32,5 +32,3 @@ gulp.task('cssInject', ['styles'], function() {
 gulp.task('scriptsRefresh', ['scripts'], function() {
     browserSync.reload();
 });
-
-export default 'watch';

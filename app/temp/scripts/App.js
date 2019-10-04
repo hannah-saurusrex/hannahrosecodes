@@ -11458,7 +11458,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 var mobileMenu = new _MobileMenu2.default();
 new _RevealOnScroll2.default((0, _jquery2.default)(".work"), "60%"); /* write which element we're selecting (by using jquery class selector), and what offset they should use */
-new _RevealOnScroll2.default((0, _jquery2.default)(".contact-reveal"), "70%");
+// new RevealOnScroll($(".contact-reveal"), "70%"); taking out the contact area reveal on scroll. 
 var stickyHeader = new _StickyHeader2.default();
 
 /***/ }),
