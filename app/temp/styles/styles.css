@@ -879,7 +879,6 @@ a {
 @media (min-width: 530px) {
 
 .feature-item__icon {
-            position: absolute;
             left: 0
     }
     }
@@ -1020,18 +1019,18 @@ Instead, edit gulp/templates/sprite.css */
     }
 
 .site-header--is-expanded {
-        background-color: rgba(#BBC085, 0.7);
+        background-color: rgba(187,192,133, 0.7);
     }
 
 @media (min-width: 800px) {
 
 .site-header {
         position: fixed;
-        background-color: rgba(#BBC085, 0.3)
+        background-color: rgba(187,192,133, 0.3)
 }
 
         .site-header--dark {
-            background-color: rgba(#BBC085, 0.6);
+            background-color: rgba(187,192,133, 0.6);
         }
     }
 
@@ -1050,7 +1049,7 @@ Instead, edit gulp/templates/sprite.css */
         transition: transform .3s ease-out, -webkit-transform .3s ease-out;
         text-align: center;
         padding: 15px 25px;
-        background-color: rgba(#f9ceb7, 0.8);
+        background-color: rgba(249,206,183, 0.8);
     }
 
 @media (min-width: 800px) {
