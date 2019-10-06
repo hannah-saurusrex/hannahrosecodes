@@ -1,16 +1,11 @@
-modules.exports = {
-  plugins: [
-  gulp = require('gulp'),
+var gulp = require('gulp'),
   cssImport = require('postcss-import'),
   postcss = require('gulp-postcss'),
   autoprefixer = require('autoprefixer'),
   cssvars = require('postcss-simple-vars'),
   nested = require('postcss-nested'),
   mixins = require('postcss-mixins'),
-  hexrgba = require('postcss-hexrgba'),
-  ]
-}
-
+  hexrgba = require('postcss-hexrgba');
   
   gulp.task('styles', function() {
     return gulp
