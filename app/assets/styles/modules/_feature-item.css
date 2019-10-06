@@ -9,7 +9,12 @@
     &__icon {
         display: block;
         margin: 0 auto;
+<<<<<<< HEAD
         border: 2px solid $mainPink;
+=======
+        height: 135px;
+        width: 200px;
+>>>>>>> portfolio
         
         @mixin atSmall {
             left: 0;

@@ -874,15 +874,18 @@ a {
 .feature-item__icon {
         display: block;
         margin: 0 auto;
+<<<<<<< HEAD
         border: 2px solid #f9ceb7;
+=======
+        height: 135px;
+        width: 200px;
     }
 
-@media (min-width: 530px) {
-
-.feature-item__icon {
-            left: 0
-    }
-    }
+.feature-item__icon >>>>>>> portfolio
+        
+        @mixin atSmall {
+            left: 0;
+        }
 
 .feature-item__title {
         font-size: 1.6rem;
