@@ -9,9 +9,10 @@
     &__icon {
         display: block;
         margin: 0 auto;
+        height: 135px;
+        width: 200px;
         
         @mixin atSmall {
-            position: absolute;
             left: 0;
         }
     }

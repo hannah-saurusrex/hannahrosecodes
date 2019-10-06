@@ -865,12 +865,13 @@ a {
 .feature-item__icon {
         display: block;
         margin: 0 auto;
+        height: 135px;
+        width: 200px;
     }
 
 @media (min-width: 530px) {
 
 .feature-item__icon {
-            position: absolute;
             left: 0
     }
     }
@@ -999,13 +1000,13 @@ Instead, edit gulp/templates/sprite.css */
 }
 
 .site-header--is-expanded {
-        background-color: rgba(#BBC085, 0.3);
+        background-color: rgba(187,192,133, 0.3);
     }
 
 @media (min-width: 800px) {
 
 .site-header {
-        background-color: rgba(#BBC085, 0.3)
+        background-color: rgba(187,192,133, 0.3)
 }
     }
 
@@ -1020,7 +1021,7 @@ Instead, edit gulp/templates/sprite.css */
                 transform-origin: 50% 0;
         text-align: center;
         padding: 15px 25px;
-        background-color: rgba(#f9ceb7, 0.8);
+        background-color: rgba(249,206,183, 0.8);
     }
 
 @media (min-width: 800px) {
