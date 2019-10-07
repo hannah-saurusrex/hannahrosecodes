@@ -23,6 +23,7 @@
         margin-top: .7em;
         margin-bottom: .8rem;
         text-align: center;
+        color: $mainBlack;
 
         @mixin atSmall {
             margin-top: 1em;
