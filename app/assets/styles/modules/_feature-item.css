@@ -9,12 +9,8 @@
     &__icon {
         display: block;
         margin: 0 auto;
-<<<<<<< HEAD
-        border: 2px solid $mainPink;
-=======
         height: 135px;
         width: 200px;
->>>>>>> portfolio
         
         @mixin atSmall {
             left: 0;
@@ -22,7 +18,7 @@
     }
 
     &__title {
-        font-size: 1.6rem;
+        font-size: 1.7rem;
         font-weight: 300;
         margin-top: .7em;
         margin-bottom: .8rem;
@@ -33,5 +29,9 @@
             font-size: 1.875rem;
             text-align: left;
         }
+    }
+
+    &__description {
+        line-height: 1.35rem;
     }
 }
