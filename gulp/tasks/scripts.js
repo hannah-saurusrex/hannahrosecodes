@@ -1,4 +1,4 @@
-var gulp = require('gulp');
+var gulp = require('gulp'),
 webpack = require('webpack');
 
 gulp.task('scripts', function(callback) {
@@ -11,3 +11,4 @@ gulp.task('scripts', function(callback) {
         callback();
     });
 });
+

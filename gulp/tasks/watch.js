@@ -2,7 +2,7 @@ const gulp = require('gulp');
 const watch = require('gulp-watch');
 const browserSync = require('browser-sync').create();
 
-function watch() {
+function watchFiles() {
     browserSync.init({
         server:{
             baseDir: "app"
@@ -13,7 +13,7 @@ function watch() {
         gulp.start('cssInject');
     });
 
-    gulp.watch('./app/assets/scripts/**/*.js').on('chnage', browserSync.reload);
+    gulp.watch('./app/assets/scripts/**/*.js').on('change', browserSync.reload);
         gulp.start('scriptsRefresh');
     });
 
@@ -28,4 +28,4 @@ gulp.task('scriptsRefresh', ['scripts'], function() {
     browserSync.reload();
 }
 
-exports.watch = watch;
+exports.watchFiles = watchFiles;

@@ -1,13 +1,13 @@
 .primary-nav {
     padding-top: 10px;
 
-    @mixin atMedium {
+    @include atMedium {
         padding-top: 0;
     }
 
     &--pull-right {
         
-        @mixin atMedium {
+        @include atMedium {
             float: right;
         }
     }
@@ -15,14 +15,14 @@
     ul {
         margin: 0;
         padding: 0;
-        @mixin clearfix;
+        // @include clearfix;
     }
 
     li {
         list-style: none;
         padding-right: 2px;
 
-        @mixin atMedium {
+        @include atMedium {
             float: left;
             display: inline-block;
             padding-right: 20px;
@@ -37,7 +37,7 @@
         padding: 10px 0;
         font-size: 1rem;
 
-        @mixin atMedium {
+        @include atMedium {
             padding: 20px 0;
             font-size: 1.125rem;
             background-color: transparent;

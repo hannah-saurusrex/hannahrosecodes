@@ -12,7 +12,7 @@
         margin-top: 1rem;
         text-align: center;
 
-        @mixin atMedium {
+        @include atMedium {
             display: inline;
             margin-top: 0;
             margin-left: 1.5rem;

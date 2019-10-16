@@ -13,7 +13,7 @@
         background-color: rgba(#BBC085, 0.7);
     }
     
-    @mixin atMedium {
+    @include atMedium {
         position: fixed;
         background-color: rgba(#BBC085, 0.3);
 
@@ -34,7 +34,7 @@
         padding: 15px 25px;
         background-color: rgba(#f9ceb7, 0.8);
 
-        @mixin atMedium {
+        @include atMedium {
             left: auto;
             transform: translateX(0);
 
@@ -87,7 +87,7 @@
             transition: transform .3s ease-out;
         }
 
-        @mixin atMedium {
+        @include atMedium {
             display: none;
         }
     }
@@ -116,7 +116,7 @@
         padding-top: 110px;
         text-align: center;
 
-        @mixin atMedium {
+        @include atMedium {
             opacity: 1;
             z-index: 1;
             padding-top: 0;

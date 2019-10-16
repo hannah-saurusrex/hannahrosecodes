@@ -10,7 +10,7 @@
         padding-left: 0;
         padding-right: 0;
 
-        @mixin atMedium {
+        @include atMedium {
             padding-left: 18px;
             padding-right: 18px;
         }
@@ -20,7 +20,7 @@
         padding-left: 0;
         padding-right: 0;
 
-        @mixin atLarge {
+        @include atLarge {
             padding-left: 18px;
             padding-right: 18px;
         }
@@ -34,7 +34,7 @@
     /* &--b-margin {
         margin-bottom: 1rem;
 
-        @mixin atSmall {
+        @include atSmall {
             margin-bottom: 3.875rem;
         }
     } */

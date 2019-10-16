@@ -1,22 +1,25 @@
-@define-mixin atSmall {
+@mixin atSmall {
     @media (min-width: 530px) {
-        @mixin-content;
+        @content;
     }
 }
 
-@define-mixin atMedium {
+/* @include atSmall reference mixin
+@define atMedium */
+
+@mixin atMedium {
     @media (min-width: 800px) {
-        @mixin-content;
+        @content;
     }
 }
 
-@define-mixin atLarge {
+@mixin atLarge {
     @media (min-width: 1010px) {
-        @mixin-content;
+        @content;
     }
 }
 
-@define-mixin clearfix {
+@mixin clearfix {
     &::after {
         content: "";
         clear: both;

@@ -3,7 +3,7 @@
     font-weight: 500;
     color: $mainGreen;
 
-    @mixin atSmall {
+    @include atSmall {
         font-size: 2.875rem;
     }
 

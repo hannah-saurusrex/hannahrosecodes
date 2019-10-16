@@ -3,7 +3,7 @@
     text-align: center;
     margin-top: 6rem;
 
-    @mixin atSmall {
+    @include atSmall {
         font-size: 3.75rem;
         margin-top: 8rem;
     }
@@ -16,7 +16,7 @@
         margin-right: auto;
         margin-bottom: .6rem;
 
-        @mixin atSmall {
+        @include atSmall {
             padding-top: 0;
             margin-right: .5rem;
             margin-left: 0;

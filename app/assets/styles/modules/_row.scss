@@ -1,6 +1,6 @@
 .row {
 
-    @mixin clearfix;
+    // @include clearfix;
 
     
     &--gutters-work {
@@ -43,7 +43,7 @@
         margin-bottom: 1rem;
     }
 
-    @mixin atMedium {
+    @include atMedium {
 
         &__b-margin-until-medium {
             margin-bottom: 0;
@@ -73,7 +73,7 @@
         }
     }
 
-    @mixin atLarge {
+    @include atLarge {
 
         &__b-margin-until-large {
             margin-bottom: 0;
@@ -100,7 +100,7 @@
 
     /* begin equal height rules */
     &--equal-height-at-medium {
-        @mixin atMedium {
+        @include atMedium {
             display: flex;
         }
 
@@ -111,7 +111,7 @@
     }
 
     &--equal-height-at-large {
-        @mixin atLarge {
+        @include atLarge {
             display: flex;
         }
 

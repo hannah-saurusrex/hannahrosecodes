@@ -15,7 +15,7 @@
         width: 100%;
         text-align: center;
 
-        @mixin atMedium {
+        @include atMedium {
             padding-top: 60px;
         }
     }
@@ -30,7 +30,7 @@
         margin-right: auto;
         text-shadow: 1px 1px 1px black;
 
-        @mixin atSmall {
+        @include atSmall {
             font-size: 4.8rem;
         }
     }
@@ -46,7 +46,7 @@
         margin-top: .5rem;
         text-shadow: 1px 1px 1px black;
 
-        @mixin atSmall {
+        @include atSmall {
             font-size: 2rem;
         }
     }
